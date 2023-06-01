@@ -102,11 +102,11 @@ p {
 /* hovers */
 @media (hover: hover) {
   .about a:hover {
-    background-color: #dc3545
+    background-color: #dc3545;
   }
   .image img:hover {
     transform: rotate(-5deg) scale(1.08);
-    cursor: pointer
+    cursor: pointer;
   }
 }
 

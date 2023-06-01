@@ -93,6 +93,7 @@ p {
   letter-spacing: -0.05em;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all ease 0.3s;
 }
 .btn span {
   position: absolute;

@@ -15,7 +15,7 @@
   }
 
   .main-section {
-    padding: 14.7vw 0 10.5vw 0;
+    padding: 12.5vw 0 7.5vw 0;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -28,6 +28,7 @@
     padding: 0;
     display: flex;
     align-items: center;
+    padding-left: 10px;
   }
   .image img {
     width: 90%;
@@ -57,8 +58,11 @@
     top: 0;
     left: 95%;
   }
+  h2.price {
+    padding: 0.75vw 0.75vw 0.75vw 0;
+  }
   p {
-    padding-top: 3.2vw;
+    padding-top: 2.3vw;
     padding-right: 6.5vw;
     font-size: 1.3vw;
   }
@@ -99,25 +103,25 @@
   /* side-bar */
   .side-bar {
     display: block;
-    width: 7.6vw;
+    width: 5.8vw;
     padding: 0.7vw;
-    max-width: none;
     background: #A7A4A4;
   }
   .logo-side-bar img {
     display: block;
-    width: 6.2vw;
-    padding-top: 19px;
+    width: 100%;
     margin: auto;
+    margin-top: 19px;
+    transition: all ease 0.15s;
   }
   .title-side-bar  {
     transform: rotate(90.58deg);
     white-space: nowrap;
-    margin-top: 5vw;
+    margin-top: 4vw;
   }
   h6 {
     font-weight: 600;
-    font-size: 1.55vw;
+    font-size: 1.45vw;
     line-height: 24px;
     letter-spacing: 1.745em;
     color: #333232;
@@ -141,12 +145,15 @@
   h2.title > span {
   left: 37vw;
   }
+  h2.price {
+    margin-top: 1vw;
+  }
   p {
     font-size: 0.95vw;
     line-height: 1.15vw;
     padding-right: 10vw;
   }
   h6 {
-    font-size: 1.35vw;
+    font-size: 1.37vw;
   }
 }

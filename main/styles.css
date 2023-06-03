@@ -23,14 +23,13 @@ h1, h2 {
 h2 {
   font-style: italic;
   font-weight: 500;
-  font-size: 8vw;
+  font-size: 7.8vw;
   line-height: 1.3;
   letter-spacing: 0.165em;
   text-transform: uppercase;
 }
 
 .main-container {
-  max-width: 1600px;
   background: radial-gradient(176.81% 129.58% at 94% 162.06%, #585858 0%, #000000 69.45%);
 }
 
@@ -39,7 +38,7 @@ h2 {
   display: none;
 }
 
-/* image air-max */
+/* image */
 .image {
   padding-top: 82px;
   padding-left: 15px;
@@ -71,29 +70,32 @@ p {
   font-weight: 500;
   font-size: 3.4vw;
   line-height: 1.1;
-  padding-top: 16px;
-  padding-right: 65px;
+  padding-top: 4.2vw;
+  padding-right: 17vw;
   color: rgba(88, 92, 121, 0.89);
   text-transform: uppercase;
   font-style: italic;
 }
 .button {
-  padding-left: 5px;
-  padding-top: 15vw;
-  padding-bottom: 50px;
+  padding-left: 1.4vw;
+  padding-top: 16vw;
+  padding-bottom: 12.9vw;
 }
 .btn {
   color: #130505;
   background-color: #979090;
-  border-radius: 23px;
-  padding: 14px 9px 15px 9px;
+  border-radius: 5.9vw;
+  padding: 4vw 2.7vw 4.2vw 2.7vw;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 6.4vw;
   line-height: 30px;
   letter-spacing: -0.05em;
   text-transform: uppercase;
   text-decoration: none;
   transition: all ease 0.3s;
+}
+.button a {
+  position: relative;
 }
 .btn span {
   position: absolute;
@@ -109,4 +111,3 @@ p {
     cursor: pointer;
   }
 }
-

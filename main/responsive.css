@@ -1,26 +1,12 @@
+/* 576PX */
 @media (min-width:576px) {
-  .image {
+  .image, .about {
     padding-left: 50px;
-  }
-  .about {
-    padding-left: 50px;
-  }
- p {
-    padding-right: 100px;
-  }
-  .button {
-    padding-bottom: 80px;
-  }
-  .btn {
-    padding: 20px 16px 21px 16px;
   }
 }
 
 /* 768PX */
 @media (min-width:768px) {
-  .side-bar {
-    display: block;
-  }
   .main-container {
     background: radial-gradient(176.81% 129.58% at 50% 119.06%, #585858 0%, #000000 69.45%);
   }
@@ -29,13 +15,14 @@
   }
 
   .main-section {
-    padding: 10% 0;
+    padding: 14.7vw 0 10.5vw 0;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
   }
 
+  /* image */
   .image {
     flex: 50%;
     padding: 0;
@@ -45,14 +32,14 @@
   .image img {
     width: 90%;
   }
+
+  /* about */
   .about-wrapper {
     flex: 50%;
     display: flex;
   }
-
-  /* about */
   .about {
-    padding-left: 38px;
+    padding-left: 2.4vw;
   }
   h1 {
     font-size: 11vw;
@@ -66,44 +53,43 @@
   }
   h2.title > span {
     position: absolute;
-    transform: translate(-60%, -50%);
+    transform: translate(-50%, -50%);
     top: 0;
-    left: 100%;
+    left: 95%;
   }
   p {
+    padding-top: 3.2vw;
     padding-right: 6.5vw;
-    font-size: 1.4vw;
-  }
-  .button {
-    padding-left: 0;
-    padding-top: 95px;
-    padding-bottom: 30px;
-  }
-  .button .btn span {
-    position: absolute;
+    font-size: 1.3vw;
   }
   .circle-h2 {
-    width: 90px;
-    height: 90px;
+    width: 9.25vw;
+    height: 9.25vw;
 
     border-radius: 100%;
     border: 1px solid rgba(239, 230, 230, 0.02);
     filter: blur(2px);
     background: linear-gradient(0deg, rgba(239, 230, 230, 0.04), rgba(239, 230, 230, 0.01)), linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01));
   }
-  .button a {
-    position: relative;
+  .button {
+    padding-left: 0;
+    padding-top: 8.1vw;
+    padding-bottom: 30px;
+  }
+  .btn {
+    padding: 1.35vw 1.2vw 1.4vw 1.2vw;
+    font-size: 1.55vw;
+    border-radius: 1.7vw;
   }
   .circle-wrapper-btn {
-    left: 122px;
-    top: -65px;
+    left: 8.4vw;
+    top: -6vw;
     pointer-events: none;
   }
   .circle-btn {
-    width: 90px;
-    height: 90px;
+    width: 9.25vw;
+    height: 9.25vw;
 
-    pointer-events: none;
     background: rgba(153, 153, 153, 0.15);
     backdrop-filter: blur(16px);
     border-radius: 100%;
@@ -112,25 +98,26 @@
 
   /* side-bar */
   .side-bar {
-    width: 7%;
-    max-width: 120px;
-    padding: 10px;
+    display: block;
+    width: 7.6vw;
+    padding: 0.7vw;
+    max-width: none;
     background: #A7A4A4;
   }
   .logo-side-bar img {
     display: block;
-    max-width: 100%;
-    padding-top: 10px;
+    width: 6.2vw;
+    padding-top: 19px;
     margin: auto;
   }
   .title-side-bar  {
     transform: rotate(90.58deg);
     white-space: nowrap;
-    margin-top: 47px;
+    margin-top: 5vw;
   }
   h6 {
     font-weight: 600;
-    font-size: 1.4vw;
+    font-size: 1.55vw;
     line-height: 24px;
     letter-spacing: 1.745em;
     color: #333232;
@@ -138,60 +125,28 @@
   }
 }
 
-/* 1200PX */
-@media (min-width:1200px) {
-.button {
-  padding-top: 125px;
-  }
-  .circle-h2 {
-    width: 148px;
-    height: 148px;
-  }
-  .circle-wrapper-btn {
-    left: 131px;
-    top: -96px;
-  }
-  .circle-btn {
-    width: 148px;
-    height: 148px;
-  }
-}
-
-/*1600PX*/
+/* 1600PX */
 @media (min-width:1600px) {
   .image img {
-    width: 83%;
+    width: 84%;
   }
-
   h1 {
-    font-size: 162.859px;
-    line-height: 195px;
+    font-size: 10.15vw;
+    line-height: 12.2vw;
   }
   h2 {
-    font-size: 58.86px;
-    line-height: 71px;
+    font-size: 3.7vw;
+    line-height: 4.5vw;
+  }
+  h2.title > span {
+  left: 37vw;
   }
   p {
-    font-size: 15px;
-    line-height: 18px;
-    padding-right: 120px;
-  }
-
-  .side-bar {
-    width: 8%;
-  }
-  .logo-side-bar img {
-    width: 99px;
-    padding-top: 19px;
-  }
-  .title-side-bar {
-    margin-top: 100px;
+    font-size: 0.95vw;
+    line-height: 1.15vw;
+    padding-right: 10vw;
   }
   h6 {
-    font-size: 21px;
-  }
-
-  .main-section {
-    padding: 234px 0 166px 0;
+    font-size: 1.35vw;
   }
 }

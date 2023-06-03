@@ -51,6 +51,7 @@
   h2.title {
     width: fit-content;
     position: relative;
+    margin-top: 0;
   }
   h2.title > span {
     position: absolute;

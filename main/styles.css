@@ -98,10 +98,10 @@ p {
   text-transform: uppercase;
   text-decoration: none;
 }
-.button a {
+.button .btn {
   position: relative;
 }
-.btn span {
+.button .btn .circle-wrapper-btn {
   position: absolute;
 }
 
